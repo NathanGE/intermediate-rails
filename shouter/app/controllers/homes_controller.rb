@@ -1,5 +1,5 @@
 class HomesController < ApplicationController
-  before_action: :check_logged_in_user
+  before_action :check_logged_in_user
 
   def show
   end
